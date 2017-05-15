@@ -1,0 +1,26 @@
+{
+  "name": "@chrismh/buddy-url",
+  "version": "1.0.1",
+  "description": "Url tools",
+  "main": "dist/index.js",
+  "types": "dist/index.d.js",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf dist",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Chris Hogan",
+  "license": "ISC",
+  "dependencies": {
+    "moment": "^2.18.1"
+  },
+  "devDependencies": {
+    "@types/jasmine": "^2.5.47",
+    "jasmine": "^2.6.0",
+    "karma": "^1.7.0",
+    "karma-jasmine": "^1.1.0",
+    "rimraf": "^2.6.1",
+    "typescript": "^2.3.2"
+  }
+}

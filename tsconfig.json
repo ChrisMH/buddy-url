@@ -1,0 +1,20 @@
+{
+  "compilerOptions": {
+    "target": "es5",
+    "lib": [ "es7" ],
+    "module": "commonjs",
+    "sourceMap": false,
+    "inlineSourceMap": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "noImplicitAny": true,
+    "noEmitOnError": true,
+    "declaration": true,
+    "sourceRoot": "src",
+    "outDir": "dist"
+  },
+  "exclude": [
+    "node_modules",
+    "test"
+  ]
+}
